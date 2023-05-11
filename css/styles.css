@@ -2,6 +2,7 @@
 --primary-text-color: #434455;
 --title-text-color: #2E2F42;
 --accent-color: #4D5AE5;
+--page-background-color: #FFFFFF;
 }
 
 ul{
@@ -13,8 +14,8 @@ text-decoration: none;
 }
 
 body{
-background-color: #FFFFFF;
-font-family: 'Roboto',sans-serif;
+font-family: 'Roboto',sans-serif;    
+background-color: var(--page-background-color);
 color: var(--primary-text-color);
 }
 
@@ -55,7 +56,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--page-background-color);
 background: var(--title-text-color);
 }
 
@@ -63,7 +64,7 @@ background: var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #FFFFFF;
+color: var(--page-background-color);
 background: var(--accent-color);
 }
 .principles-title{
