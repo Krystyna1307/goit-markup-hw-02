@@ -53,12 +53,17 @@ color: var(--title-text-color);
 color: #404bbf;    
 }
 
+.address {
+font-style: normal
+}
+
 .mailo, 
 .tel {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
+color: var(--primary-text-color);
 }
 
 .hero {
