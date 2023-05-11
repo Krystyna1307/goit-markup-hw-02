@@ -1,3 +1,9 @@
+:root {
+--primary-text-color: #434455;
+--title-text-color: #2E2F42;
+--accent-color: #4D5AE5;
+}
+
 ul{
 list-style: none;
 }
@@ -7,8 +13,9 @@ text-decoration: none;
 }
 
 body{
-background-color: E5E5E5;
+background-color: #FFFFFF;
 font-family: 'Roboto',sans-serif;
+color: var(--primary-text-color);
 }
 
 .header-logo {
@@ -16,18 +23,18 @@ font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 
 .accent {
-color: #4D5AE5;
+color: var(--accent-color);
 }
 
 .menu-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 
 .mailo, 
@@ -36,7 +43,6 @@ font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
 }
 
 h1 {
@@ -45,7 +51,7 @@ font-size: 56px;
 line-height: 1.07;
 text-align: center;
 color: #FFFFFF;
-background: #2E2F42;
+background: var(--title-text-color);
 }
 
 .hero-button {
@@ -53,19 +59,18 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: #FFFFFF;
-background: #4D5AE5;
+background: var(--accent-color);
 }
 .principles-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 .principles-desc{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
 }
 .subject{
 font-weight: 700;
@@ -73,28 +78,27 @@ font-size: 36px;
 line-height: 1.11;
 text-align: center;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 .name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 text-align: center;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 .specialty{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
 }
 .footer{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
-background: #2E2F42;
+background: var(--title-text-color);
 }
 
 .modal-btn{
@@ -104,24 +108,23 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
-color: #4D5AE5;
+color: var(--accent-color);
 background-color: #F4F4FD;
 
 }
 .modal-btn:hover,
 .modal-btn:focus {
 color: #F4F4FD;
-background-color: #4D5AE5;
+background-color: var(--accent-color);
 }
 .title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+color: var(--title-text-color);
 }
 .title-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
 }
