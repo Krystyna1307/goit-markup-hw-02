@@ -92,7 +92,7 @@ background: var(--accent-color);
 
 .hero-button:hover,
 .hero-button:focus {
-color: ;#404BBF;
+background-color: #404BBF;
 }
 
 .pointer {
