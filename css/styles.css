@@ -49,6 +49,11 @@ color: var(--title-text-color);
     color: var(--title-text-color);
 }
 
+.nav link:hover,
+.nav link:focus {
+color: #404bbf;
+}
+
 
 .mailo, 
 .tel {
