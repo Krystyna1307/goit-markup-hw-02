@@ -32,7 +32,6 @@ color: var(--accent-color);
 .link {
 text-decoration: none;    
 }
-
 .list{
 list-style: none;
 }
@@ -42,18 +41,17 @@ color: var(--title-text-color);
 }
 
 .nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-text-color);
 }
 
-.nav link:hover,
-.nav link:focus {
-color: #404bbf;
+.list .link:hover,
+.list .link:focus {
+color: #404bbf;    
 }
-
 
 .mailo, 
 .tel {
