@@ -146,9 +146,10 @@ background-color: #FFFFFF;
 
 .footer-logo {
 background-color: var(--title-text-color);
+color: var(--accent-color);
 }
 
-.footer{
+.footer-text {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
