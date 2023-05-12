@@ -143,12 +143,19 @@ background-color: #F4F4FD;
 background-color: #FFFFFF;
 }
 
+.footer-logo {
+background-color: var(--title-text-color);
+}
+
 .footer{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #F4F4FD;
 background: var(--title-text-color);
+}
+.footer-logo .accent {
+background-color: #F4F4FD;
 }
 
 .modal-btn{
